@@ -44,7 +44,7 @@ while not cond:
         t.forward(speed/5)
         if t.xcor()>250:
             t.shapesize(2)
-            t.write('       WINNER')
+            t.write('~~~~~~~~~~~~WINNER~~~~~~~~~~~~')
             cond=True
             break
 
